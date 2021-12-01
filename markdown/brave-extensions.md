@@ -15,6 +15,7 @@ Be sure to enable them all for private mode and do not allow access to file URLs
 - [Grammarly for Chrome](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)
 - [Initab](https://chrome.google.com/webstore/detail/initab/igmbdimmfbpdplpahpapkploofmgaipl)
 - [Inject Code](https://chrome.google.com/webstore/detail/inject-code/gpaakhhkcmlenabckmapmlfnajboobbi)
+- [IPFS Companion](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch)
 - [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 - [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
