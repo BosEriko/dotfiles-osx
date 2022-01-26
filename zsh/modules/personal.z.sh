@@ -75,7 +75,7 @@ bos() {
             elif [ "$2" = "cowsay" ]; then
                 fortune | cowsay -f ghostbusters | lolcat
             elif [ "$2" = "watch" ]; then
-                peerflix $3 --vlc -- --fullscreen
+                ~/.dotfiles/watch/index.sh
             else
                 echo "Usage: -f <command> or --fun <command>"
             fi
