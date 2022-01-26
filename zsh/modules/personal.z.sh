@@ -19,6 +19,7 @@ ${RESET}
                                 pipes                   Run some pipes
                                 matrix                  Enter the matrix
                                 cowsay                  Get a random fortune
+                                watch                   Watch movies using VLC
 
     -vs, --vscodium             backup                  Backup the currently installed VSCodium extensions
                                 install                 Install VSCodium extensions from the list
@@ -73,6 +74,8 @@ bos() {
                 cmatrix
             elif [ "$2" = "cowsay" ]; then
                 fortune | cowsay -f ghostbusters | lolcat
+            elif [ "$2" = "watch" ]; then
+                peerflix $3 --vlc -- --fullscreen
             else
                 echo "Usage: -f <command> or --fun <command>"
             fi
