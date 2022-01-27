@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Dependencies - webtorrent, mpv
+# https://github.com/BreadMoncher/notflix
+# https://github.com/Bugswriter/notflix
 
 mkdir -p $HOME/.cache/notflix
 
