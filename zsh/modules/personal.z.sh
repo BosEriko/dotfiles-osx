@@ -20,6 +20,7 @@ ${RESET}
                                 matrix                  Enter the matrix
                                 cowsay                  Get a random fortune
                                 watch                   Watch movies using VLC
+                                music                   Download music
 
     -vs, --vscodium             backup                  Backup the currently installed VSCodium extensions
                                 install                 Install VSCodium extensions from the list
@@ -76,6 +77,8 @@ bos() {
                 fortune | cowsay -f ghostbusters | lolcat
             elif [ "$2" = "watch" ]; then
                 ~/.dotfiles/watch/index.sh
+            elif [ "$2" = "music" ]; then
+                spotdl $3
             else
                 echo "Usage: -f <command> or --fun <command>"
             fi
