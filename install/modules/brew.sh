@@ -39,6 +39,7 @@ brew install tmux                                                 # tmux source 
 brew install tree                                                 # Display directories as trees (with optional color/HTML output) (https://formulae.brew.sh/formula/tree)
 brew install yarn                                                 # Fast, reliable, and secure dependency management (https://github.com/yarnpkg/yarn)
 brew install zsh                                                  # Zsh is a shell designed for interactive use (http://www.zsh.org/)
+brew install ffmpeg                                               # Play, record, convert, and stream audio and video (https://formulae.brew.sh/formula/ffmpeg)
 brew cask install beaker-browser                                  # An experimental peer-to-peer Web browser (https://github.com/beakerbrowser/beaker)
 brew cask install brave-browser                                   # Next generation Brave browser for macOS, Windows, Linux, and eventually Android (https://github.com/brave/brave-browser)
 brew cask install figma                                           # Collaborative interface design tool (https://github.com/figma)
