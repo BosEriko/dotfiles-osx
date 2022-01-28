@@ -78,7 +78,7 @@ bos() {
             elif [ "$2" = "watch" ]; then
                 ~/.dotfiles/watch/index.sh
             elif [ "$2" = "music" ]; then
-                spotdl $3
+                spotdl $3 --output ~/Downloads
             else
                 echo "Usage: -f <command> or --fun <command>"
             fi
