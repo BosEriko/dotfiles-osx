@@ -21,6 +21,7 @@ ${RESET}
                                 cowsay                  Get a random fortune
                                 movie                   Watch movies using VLC
                                 music                   Download music
+                                anime                   Watch anime using VLC
 
     -vs, --vscodium             backup                  Backup the currently installed VSCodium extensions
                                 install                 Install VSCodium extensions from the list
@@ -77,6 +78,8 @@ bos() {
                 fortune | cowsay -f ghostbusters | lolcat
             elif [ "$2" = "movie" ]; then
                 ~/.dotfiles/movie/index.sh
+            elif [ "$2" = "anime" ]; then
+                ani-cli -v -q 1080
             elif [ "$2" = "music" ]; then
                 spotdl $3 --output ~/Music
             else
