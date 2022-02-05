@@ -1,10 +1,10 @@
 # Applications
 
 ## Cloud Storage
-- [Dropbox](https://www.dropbox.com/install)
-- [Google Drive](https://www.google.com/drive/download/)
-- [Google Photos](https://photos.google.com/apps)
-- [MEGA](https://mega.nz/sync)
+- [Dropbox](https://www.dropbox.com/install) (Personal Backup)
+- [Google Drive](https://www.google.com/drive/download/) (Work Backup)
+- [Google Photos](https://photos.google.com/apps) (Photos Backup)
+- [MEGA](https://mega.nz/sync) (Music Backup)
 
 ## Utilities
 - [Alfred](https://www.alfredapp.com/)
@@ -14,6 +14,7 @@
 - [Vanilla](https://matthewpalmer.net/vanilla/)
 
 ## Media
+- [Apple Music](https://www.apple.com/apple-music/)
 - [Elmedia Video Player](https://itunes.apple.com/us/app/elmedia-universal-video-player/id937759555)
 - [iMovie](https://itunes.apple.com/us/app/imovie/id408981434)
 - [YouTube Music](https://music.youtube.com/)
