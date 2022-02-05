@@ -19,7 +19,7 @@ ${RESET}
                                 pipes                   Run some pipes
                                 matrix                  Enter the matrix
                                 cowsay                  Get a random fortune
-                                watch                   Watch movies using VLC
+                                movie                   Watch movies using VLC
                                 music                   Download music
 
     -vs, --vscodium             backup                  Backup the currently installed VSCodium extensions
@@ -75,8 +75,8 @@ bos() {
                 cmatrix
             elif [ "$2" = "cowsay" ]; then
                 fortune | cowsay -f ghostbusters | lolcat
-            elif [ "$2" = "watch" ]; then
-                ~/.dotfiles/watch/index.sh
+            elif [ "$2" = "movie" ]; then
+                ~/.dotfiles/movie/index.sh
             elif [ "$2" = "music" ]; then
                 spotdl $3 --output ~/Music
             else
