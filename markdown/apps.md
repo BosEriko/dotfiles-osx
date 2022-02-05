@@ -17,6 +17,7 @@
 - [Apple Music](https://www.apple.com/apple-music/)
 - [Elmedia Video Player](https://itunes.apple.com/us/app/elmedia-universal-video-player/id937759555)
 - [iMovie](https://itunes.apple.com/us/app/imovie/id408981434)
+- [Spotify](https://www.spotify.com/us/download/mac/)
 - [YouTube Music](https://music.youtube.com/)
 
 ## Documents
