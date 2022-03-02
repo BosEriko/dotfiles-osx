@@ -7,6 +7,7 @@ Be sure to enable them all for private mode and do not allow access to file URLs
 - [Habitica (Dailies & Habits)](https://habitica.com/)
 - [Notion (Notes)](https://www.notion.so/)
 - [Evernote (Journal)](https://evernote.com/)
+- [Spotify (Music Directory)](https://open.spotify.com/)
 
 ## Visible
 - [Marinara: Pomodoro® Assistant](https://chrome.google.com/webstore/detail/marinara-pomodoro%C2%AE-assist/lojgmehidjdhhbmpjfamhpkpodfcodef)
