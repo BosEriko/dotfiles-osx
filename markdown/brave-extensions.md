@@ -1,6 +1,13 @@
 # Brave Extensions
 Be sure to enable them all for private mode and do not allow access to file URLs!
 
+## Homepage
+- [Google Calendar (Monthlies & Weeklies)](https://calendar.google.com/)
+- [Google Keep (To-do)](https://keep.google.com/)
+- [Habitica (Dailies & Habits)](https://habitica.com/)
+- [Notion (Notes)](https://www.notion.so/)
+- [Evernote (Journal)](https://evernote.com/)
+
 ## Visible
 - [Marinara: Pomodoro® Assistant](https://chrome.google.com/webstore/detail/marinara-pomodoro%C2%AE-assist/lojgmehidjdhhbmpjfamhpkpodfcodef)
 - [Todoist for Chrome](https://chrome.google.com/webstore/detail/todoist-for-chrome/jldhpllghnbhlbpcmnajkpdmadaolakh)
