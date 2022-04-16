@@ -13,7 +13,7 @@ nnoremap <silent> <C-x> :bd<CR>
 nnoremap <silent> <C-q> :q<CR>
 nnoremap <silent> <C-s> :w<CR>
 nnoremap <silent> <C-c> :TComment<CR>
-nnoremap <silent> <C-k> :!open -a firefox -g "https://www.notion.so/boseriko-professional/92045538d4be4360a6486d9d8d5178aa\?v\=9722425e7b2c4d8cbb05b0701e5f9da1" --args --kiosk<CR>
+nnoremap <silent> <C-k> :!open -a firefox -g "https://www.notion.so/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=b50d8f4a46a748a19cd7988e1d235a2e" --args --kiosk<CR>
 nnoremap <silent> <C-b> :let @+ = expand("%")<CR>
 nnoremap <C-f> :CtrlSF<space>
 nnoremap <C-g> :%s/old/new/g
