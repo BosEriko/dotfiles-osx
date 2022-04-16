@@ -5,7 +5,7 @@
     },
     {
         "key": "ctrl+t",
-        "command": "workbench.action.toggleZenMode"
+        "command": ""
     },
     {
         "key": "ctrl+h",
@@ -46,7 +46,7 @@
     },
     {
         "key": "ctrl+g",
-        "command": "actions.find"
+        "command": ""
     },
     {
         "key": "ctrl+p",
