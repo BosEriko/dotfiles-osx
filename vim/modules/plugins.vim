@@ -7,9 +7,9 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
 
 " Functionalities
-Plug 'Valloric/MatchTagAlways'                  " HTML Tag Matcher
 Plug 'airblade/vim-gitgutter'                   " Show git difference in the gutter
 Plug 'alvan/vim-closetag'                       " Auto close HTML tags
+Plug 'andweeb/presence.nvim'                    " Discord Rich Presence plugin for Neovim
 Plug 'dyng/ctrlsf.vim'                          " Word search inside directory
 Plug 'junegunn/fzf'                             " FZF Search
 Plug 'junegunn/fzf.vim'                         " FZF.vim Search
@@ -21,6 +21,7 @@ Plug 'terryma/vim-multiple-cursors'             " Multiple Cursors
 Plug 'thaerkh/vim-workspace'                    " Persistent Vim Session
 Plug 'tomtom/tcomment_vim'                      " Comment out function
 Plug 'tpope/vim-fugitive'                       " View any blob, tree, commit, or tag in the repository
+Plug 'Valloric/MatchTagAlways'                  " HTML Tag Matcher
 Plug 'yggdroot/indentline'                      " Indent lines
 
 " Syntax Highlight
