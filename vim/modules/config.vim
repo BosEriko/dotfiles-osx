@@ -86,13 +86,6 @@ let g:startify_change_to_dir  = 0
 let g:workspace_session_directory     = $HOME . '/.history/vim/workspace/sessions'
 let g:workspace_undodir               = $HOME . '/.history/vim/workspace/undodir'
 
-" Hardtime
-let g:hardtime_default_on   = 0
-let g:list_of_normal_keys   = ["h", "j", "k", "l", "-", "+"]
-let g:list_of_visual_keys   = ["h", "j", "k", "l", "-", "+"]
-let g:list_of_insert_keys   = []
-let g:list_of_disabled_keys = ["<UP>", "<DOWN>", "<LEFT>", "<RIGHT>"]
-
 " Markdown
 let g:vim_markdown_override_foldtext        = 0
 let g:vim_markdown_emphasis_multiline       = 0
