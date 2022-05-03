@@ -70,4 +70,5 @@ fullURL="${baseurl}${url}/"
 curl -s $fullURL > $cachedir/tmp.html
 magnet=$(grep -Eo "magnet:\?xt=urn:btih:[a-zA-Z0-9]*" $cachedir/tmp.html | head -n 1) 
 
-peerflix "$magnet" --vlc -- --fullscreen
+# peerflix "$magnet" --vlc -- --fullscreen
+webtorrent "$magnet" --out ~/Movies

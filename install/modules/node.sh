@@ -34,6 +34,7 @@ yarn global add ts-node             # TypeScript execution and REPL for node.js 
 yarn global add typescript          # TypeScript is a superset of JavaScript that compiles to clean JavaScript output (https://github.com/Microsoft/TypeScript)
 yarn global add verdaccio           # A lightweight private npm proxy registry (https://github.com/verdaccio/verdaccio)
 yarn global add peerflix            # Peerflix can be used with a magnet link or a torrent file. (https://github.com/mafintosh/peerflix)
+yarn global add webtorrent-cli      # WebTorrent is the first BitTorrent client that works in the browser (https://github.com/webtorrent/webtorrent-cli)
 terminal-notifier -title 'Installing' -message 'NPM apps have been installed.'
 
 # Avoid running postinstall scripts from packages
