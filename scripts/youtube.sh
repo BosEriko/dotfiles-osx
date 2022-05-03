@@ -9,4 +9,4 @@ fi
 
 mkdir -p ~/Movies/YouTube
 
-youtube-dl "$query" -o ~/Movies/YouTube/%(title)s-%(id)s.%(ext)s
+youtube-dl "$query" -o "~/Movies/YouTube/%(title)s-%(id)s.%(ext)s"
