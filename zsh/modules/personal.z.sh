@@ -82,7 +82,7 @@ bos() {
                 echo "Usage: -f <command> or --fun <command>"
             fi
         elif [ "$1" = "-dl" ] || [ "$1" = "--download" ]; then
-            elif [ "$2" = "movie" ]; then
+            if [ "$2" = "movie" ]; then
                 ~/.dotfiles/scripts/movie.sh
             elif [ "$2" = "anime" ]; then
                 ani-cli -v -q 1080
