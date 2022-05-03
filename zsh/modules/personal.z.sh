@@ -19,7 +19,8 @@ ${RESET}
                                 pipes                   Run some pipes
                                 matrix                  Enter the matrix
                                 cowsay                  Get a random fortune
-                                movie                   Download movies
+
+    -dl, --download             movie                   Download movies
                                 music                   Download music
                                 youtube                 Download from YouTube
                                 anime                   Watch anime using VLC
@@ -77,6 +78,10 @@ bos() {
                 cmatrix
             elif [ "$2" = "cowsay" ]; then
                 fortune | cowsay -f ghostbusters | lolcat
+            else
+                echo "Usage: -f <command> or --fun <command>"
+            fi
+        elif [ "$1" = "-dl" ] || [ "$1" = "--download" ]; then
             elif [ "$2" = "movie" ]; then
                 ~/.dotfiles/scripts/movie.sh
             elif [ "$2" = "anime" ]; then
@@ -86,7 +91,7 @@ bos() {
             elif [ "$2" = "music" ]; then
                 spotdl $3 --output ~/Music
             else
-                echo "Usage: -f <command> or --fun <command>"
+                echo "Usage: -dl <command> or --download <command>"
             fi
         elif [ "$1" = "-a" ] || [ "$1" = "--assist" ]; then
             if [ "$2" = "shutdown" ]; then
