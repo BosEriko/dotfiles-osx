@@ -7,4 +7,6 @@ else
   query=$1
 fi
 
-youtube-dl "$query" -o ~/Movies
+mkdir -p ~/Movies/YouTube
+
+youtube-dl "$query" -o ~/Movies/YouTube
