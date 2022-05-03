@@ -40,6 +40,7 @@ brew install tree                                                 # Display dire
 brew install yarn                                                 # Fast, reliable, and secure dependency management (https://github.com/yarnpkg/yarn)
 brew install zsh                                                  # Zsh is a shell designed for interactive use (http://www.zsh.org/)
 brew install ffmpeg                                               # Play, record, convert, and stream audio and video (https://formulae.brew.sh/formula/ffmpeg)
+brew install youtube-dl                                           # Download videos from youtube.com or other video platforms (https://github.com/ytdl-org/youtube-dl)
 brew install --cask beaker-browser                                # An experimental peer-to-peer Web browser (https://github.com/beakerbrowser/beaker)
 brew install --cask brave-browser                                 # Next generation Brave browser for macOS, Windows, Linux, and eventually Android (https://github.com/brave/brave-browser)
 brew install --cask figma                                         # Collaborative interface design tool (https://github.com/figma)
