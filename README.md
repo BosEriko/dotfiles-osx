@@ -42,6 +42,9 @@ Close System Preferences and then install [Dash](https://kapeli.com/dash) and [C
 
 That's it! You can now open Hyper or VSCodium.
 
+## MEGA Sync
+As backup, I use [MEGA](https://mega.co.nz/) to store all my personal music and movies. Be sure to sync `~/Movies/Mega\ Movies` and `~/Music/Mega\ Music` to their respective folders inside Mega using MEGAsync!
+
 ## Note
 I also have some [Firefox Extensions](markdown/firefox-extensions.md), [Apps](markdown/apps.md) and [Games](markdown/games.md) that I frequently use.
 
