@@ -25,6 +25,11 @@ ${RESET}
                                 youtube                 Download from YouTube
                                 anime                   Watch anime using VLC
 
+    -m, --media                 move-local-to-mega      Move local movies to MEGA
+                                delete-local-movies     Delete local movies
+                                delete-mega-movies      Delete MEGA movies
+                                delete-youtube-videos   Delete YouTube videos
+
     -vs, --vscodium             backup                  Backup the currently installed VSCodium extensions
                                 install                 Install VSCodium extensions from the list
 
@@ -96,6 +101,26 @@ bos() {
                 fi
             else
                 echo "Usage: -dl <command> or --download <command>"
+            fi
+        elif [ "$1" = "-m" ] || [ "$1" = "--media" ]; then
+            if [ "$2" = "move-local-to-mega" ]; then
+                echo "Do you want to move local movies to MEGA? (Ctrl-C to abort, or press enter to continue)"
+                read
+                mv -rf ~/Movies/Local/* ~/Movies/Mega\ Movies
+            elif [ "$2" = "delete-local-movies" ]; then
+                echo "Do you want to delete local movies? (Ctrl-C to abort, or press enter to continue)"
+                read
+                rm -rf ~/Movies/Local/*
+            elif [ "$2" = "delete-mega-movies" ]; then
+                echo "Do you want to delete MEGA movies? (Ctrl-C to abort, or press enter to continue)"
+                read
+                rm -rf ~/Movies/Mega\ Movies/*
+            elif [ "$2" = "delete-youtube-videos" ]; then
+                echo "Do you want to delete YouTube videos? (Ctrl-C to abort, or press enter to continue)"
+                read
+                rm -rf ~/Movies/YouTube/*
+            else
+                echo "Usage: -m <command> or --media <command>"
             fi
         elif [ "$1" = "-a" ] || [ "$1" = "--assist" ]; then
             if [ "$2" = "shutdown" ]; then
