@@ -89,7 +89,11 @@ bos() {
             elif [ "$2" = "youtube" ]; then
                 ~/.dotfiles/scripts/youtube.sh
             elif [ "$2" = "music" ]; then
-                spotdl $3 --output ~/Music/Mega\ Music
+                if [ -z "$3" ]; then
+                    spotdl "https://open.spotify.com/playlist/306g28MRDf9bctpRaKcX3F?si=d4da5b76a7a94a58" --output ~/Music/Mega\ Music
+                else
+                    spotdl $3 --output ~/Music/Mega\ Music
+                fi
             else
                 echo "Usage: -dl <command> or --download <command>"
             fi
