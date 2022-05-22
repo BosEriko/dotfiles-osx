@@ -106,7 +106,7 @@ bos() {
             if [ "$2" = "move-local-to-mega" ]; then
                 echo "Do you want to move local movies to MEGA? (Ctrl-C to abort, or press enter to continue)"
                 read
-                mv -rf ~/Movies/Local/* ~/Movies/Mega\ Movies
+                mv -nv ~/Movies/Local/* ~/Movies/Mega\ Movies
             elif [ "$2" = "delete-local-movies" ]; then
                 echo "Do you want to delete local movies? (Ctrl-C to abort, or press enter to continue)"
                 read
