@@ -3,7 +3,7 @@ Don't overload your firefox with too many extensions!
 
 ## Homepage
 ```
-https://mail.google.com/|https://calendar.google.com/|https://habitica.com/|https://notion.so/
+https://idenati.com/
 ```
 
 ## Extensions
