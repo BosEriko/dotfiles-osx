@@ -22,6 +22,7 @@ ${RESET}
 
     -dl, --download             movie                   Download movies
                                 music                   Download music
+                                redownload-music        Redownload music
                                 youtube                 Download from YouTube
                                 anime                   Watch anime using VLC
 
@@ -94,11 +95,10 @@ bos() {
             elif [ "$2" = "youtube" ]; then
                 ~/.dotfiles/scripts/youtube.sh
             elif [ "$2" = "music" ]; then
-                if [ -z "$3" ]; then
-                    spotdl "https://open.spotify.com/playlist/306g28MRDf9bctpRaKcX3F?si=d4da5b76a7a94a58" --output ~/Music/Mega\ Music
-                else
-                    spotdl $3 --output ~/Music/Mega\ Music
-                fi
+                spotdl "https://open.spotify.com/playlist/306g28MRDf9bctpRaKcX3F?si=d4da5b76a7a94a58" --output ~/Music/Mega\ Music
+            elif [ "$2" = "redownload-music" ]; then
+                echo "Do you want to redownload your music library? (Ctrl-C to abort, or press enter to continue)"
+                rm -rf ~/Music/Mega\ Music/* && spotdl "https://open.spotify.com/playlist/306g28MRDf9bctpRaKcX3F?si=d4da5b76a7a94a58" --output ~/Music/Mega\ Music
             else
                 echo "Usage: -dl <command> or --download <command>"
             fi
