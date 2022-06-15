@@ -11,6 +11,7 @@ brew install cmake                                                # CMake is an 
 brew install cmatrix                                              # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
 brew install cowsay                                               # Let the cow talk (https://github.com/schacon/cowsay)
 brew install deno                                                 # A secure JavaScript and TypeScript runtime (https://github.com/denoland/deno)
+brew install elixir                                               # Elixir is a dynamic, functional language designed for building scalable and maintainable applications (https://github.com/elixir-lang/elixir)
 brew install figlet                                               # FIGlet is a program for making large letters out of ordinary text (http://www.figlet.org/)
 brew install fortune                                              # Fortune CLI (https://gist.github.com/zlorb/4a3eff8981fcec8ca1c7)
 brew install fzf                                                  # A command-line fuzzy finder (https://github.com/junegunn/fzf)
